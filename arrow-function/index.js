@@ -22,10 +22,16 @@ imprimeNome("Luna");
 //   }
 // }
 
-const podeBeber = idade => {
-  return idade >= 18 ? "SIM" : "NÃO"; 
-}
+// const podeBeber = idade => {
+//   if (idade >= 18) {
+//     return "SIM";
+//   } 
+//   return "NÃO";
+// }
 
+// const podeBeber = idade => {
+//   return idade >= 18 ? "SIM" : "NÃO"; 
+// }
 
 const podeBeber = idade => (idade >= 18 ? "SIM" : "NÃO");
 
